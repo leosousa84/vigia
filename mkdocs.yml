@@ -1,0 +1,16 @@
+site_name: Vigia
+repo_url: https://github.com/leosousa84/vigia
+repo_name:  Leosousa84/vigia
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assests/vigia.png
+  favicon: assests/vigia.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
