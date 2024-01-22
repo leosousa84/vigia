@@ -15,6 +15,7 @@ pytest = "^7.4.4"
 blue = "^0.9.1"
 isort = "^5.13.2"
 taskipy = "^1.12.2"
+pytest-cov = "^4.1.0"
 
 
 [tool.poetry.group.doc.dependencies]
@@ -25,3 +26,13 @@ mkdocstrings-python = "^1.8.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = "--doctest-modules"
+
+[tool.taskipy.tasks]
+lint = "blue --check --diff . && isort --check --diff ."
+docs = "mkdocs serve"
+test = "pytest -s -x --cov=vigia -VV"
+post_test = "coverage html"
