@@ -1,0 +1,12 @@
+mail.businesscorp.com.br
+ns1.businesscorp.com.br
+ns2.businesscorp.com.br
+parsingok.businesscorp.com.br
+piloto.businesscorp.com.br
+rh.businesscorp.com.br
+www.businesscorp.com.br
+businesscorp.com.br
+intranet.businesscorp.com.br
+dev.businesscorp.com.br
+srvkey.businesscorp.com.br
+ftp.businesscorp.com.br

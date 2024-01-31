@@ -1,0 +1,9 @@
+{"host":"intranet.businesscorp.com.br","input":"businesscorp.com.br","source":"alienvault"}
+{"host":"parsingok.businesscorp.com.br","input":"businesscorp.com.br","source":"hackertarget"}
+{"host":"rh.businesscorp.com.br","input":"businesscorp.com.br","source":"anubis"}
+{"host":"piloto.businesscorp.com.br","input":"businesscorp.com.br","source":"anubis"}
+{"host":"ns1.businesscorp.com.br","input":"businesscorp.com.br","source":"anubis"}
+{"host":"ns2.businesscorp.com.br","input":"businesscorp.com.br","source":"anubis"}
+{"host":"mail.businesscorp.com.br","input":"businesscorp.com.br","source":"anubis"}
+{"host":"srvkey.businesscorp.com.br","input":"businesscorp.com.br","source":"alienvault"}
+{"host":"www.businesscorp.com.br","input":"businesscorp.com.br","source":"alienvault"}

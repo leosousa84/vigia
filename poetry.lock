@@ -277,6 +277,26 @@ tomli = {version = "*", optional = true, markers = "python_full_version <= \"3.1
 toml = ["tomli"]
 
 [[package]]
+name = "dnspython"
+version = "2.5.0"
+description = "DNS toolkit"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "dnspython-2.5.0-py3-none-any.whl", hash = "sha256:6facdf76b73c742ccf2d07add296f178e629da60be23ce4b0a9c927b1e02c3a6"},
+    {file = "dnspython-2.5.0.tar.gz", hash = "sha256:a0034815a59ba9ae888946be7ccca8f7c157b286f8455b379c692efb51022a15"},
+]
+
+[package.extras]
+dev = ["black (>=23.1.0)", "coverage (>=7.0)", "flake8 (>=5.0.3)", "mypy (>=1.0.1)", "pylint (>=2.7)", "pytest (>=6.2.5)", "pytest-cov (>=3.0.0)", "sphinx (>=7.0.0)", "twine (>=4.0.0)", "wheel (>=0.41.0)"]
+dnssec = ["cryptography (>=41)"]
+doh = ["h2 (>=4.1.0)", "httpcore (>=0.17.3)", "httpx (>=0.25.1)"]
+doq = ["aioquic (>=0.9.20)"]
+idna = ["idna (>=2.1)"]
+trio = ["trio (>=0.14)"]
+wmi = ["wmi (>=1.5.1)"]
+
+[[package]]
 name = "exceptiongroup"
 version = "1.2.0"
 description = "Backport of PEP 654 (exception groups)"
@@ -1052,6 +1072,21 @@ files = [
 ]
 
 [[package]]
+name = "sublist3r"
+version = "1.0"
+description = "Subdomains enumeration tool for penetration testers"
+optional = false
+python-versions = ">=2.7"
+files = [
+    {file = "Sublist3r-1.0-py3-none-any.whl", hash = "sha256:32d9dbb4a22d6e93355c7a550a686d80f753fdca37c2d649b4b02e0187d0f97b"},
+    {file = "Sublist3r-1.0.tar.gz", hash = "sha256:8aac0232d00401562f5fc1bf6719a86056bd888b9dd11ee97eb96f0ac2371323"},
+]
+
+[package.dependencies]
+dnspython = "*"
+requests = "*"
+
+[[package]]
 name = "taskipy"
 version = "1.12.2"
 description = "tasks runner for python projects"
@@ -1137,4 +1172,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "17d08304f25676fdc3c47c1b85e26596597db6c0879c963c1997863fa9e8c813"
+content-hash = "d18e08c3447bef45b8a94dfc7731f7a8313bc53530b9dda16363c7c0aa15f83e"

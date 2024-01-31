@@ -1,0 +1,317 @@
+{
+  "objectClassName": "domain",
+  "handle": "businesscorp.com.br",
+  "ldhName": "businesscorp.com.br",
+  "nameservers": [
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "ns1.businesscorp.com.br",
+      "ipAddresses": {
+        "v4": [
+          "37.59.174.225"
+        ]
+      },
+      "events": [
+        {
+          "eventAction": "delegation check",
+          "eventDate": "2024-01-30T08:05:31Z",
+          "status": [
+            "ns aa"
+          ]
+        },
+        {
+          "eventAction": "last correct delegation check",
+          "eventDate": "2024-01-30T08:05:31Z"
+        }
+      ]
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "ns2.businesscorp.com.br",
+      "ipAddresses": {
+        "v4": [
+          "37.59.174.226"
+        ]
+      },
+      "events": [
+        {
+          "eventAction": "delegation check",
+          "eventDate": "2024-01-30T08:05:31Z",
+          "status": [
+            "ns aa"
+          ]
+        },
+        {
+          "eventAction": "last correct delegation check",
+          "eventDate": "2024-01-30T08:05:31Z"
+        }
+      ]
+    }
+  ],
+  "secureDNS": {
+    "delegationSigned": false
+  },
+  "nicbr_arbitration": true,
+  "links": [
+    {
+      "value": "https://rdap.registro.br/domain/businesscorp.com.br",
+      "rel": "self",
+      "href": "https://rdap.registro.br/domain/businesscorp.com.br",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/domain/businesscorp.com.br",
+      "rel": "archives",
+      "href": "https://rdap.registro.br/domain/businesscorp.com.br?ticket=17416766",
+      "type": "application/rdap+json"
+    }
+  ],
+  "entities": [
+    {
+      "objectClassName": "entity",
+      "handle": "23019510000106",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "org"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "Desec Security Seguran\u00e7a da Informa\u00e7\u00e3o LTDA"
+          ],
+          [
+            "adr",
+            {},
+            "text",
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "BR"
+            ]
+          ]
+        ]
+      ],
+      "roles": [
+        "registrant"
+      ],
+      "publicIds": [
+        {
+          "type": "cnpj",
+          "identifier": "23.019.510/0001-06"
+        }
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "JORLO47",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "individual"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Jos\u00e9 Ricardo Longatto"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "financeiro@desecsecurity.com"
+              ],
+              [
+                "lang",
+                {},
+                "language-tag",
+                "pt"
+              ],
+              [
+                "adr",
+                {},
+                "text",
+                [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "BR"
+                ]
+              ]
+            ]
+          ],
+          "roles": [
+            "administrative"
+          ],
+          "events": [
+            {
+              "eventAction": "registration",
+              "eventDate": "2012-01-30T16:10:04Z"
+            },
+            {
+              "eventAction": "last changed",
+              "eventDate": "2023-09-15T13:28:36Z"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2015-12-01T18:41:50Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2019-11-04T12:30:37Z"
+        }
+      ],
+      "links": [
+        {
+          "value": "https://rdap.registro.br/entity/23019510000106",
+          "rel": "self",
+          "href": "https://rdap.registro.br/entity/23019510000106",
+          "type": "application/rdap+json"
+        }
+      ],
+      "legalRepresentative": "Desec Security"
+    },
+    {
+      "objectClassName": "entity",
+      "handle": "JORLO47",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "individual"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "Jos\u00e9 Ricardo Longatto"
+          ],
+          [
+            "email",
+            {},
+            "text",
+            "financeiro@desecsecurity.com"
+          ],
+          [
+            "lang",
+            {},
+            "language-tag",
+            "pt"
+          ],
+          [
+            "adr",
+            {},
+            "text",
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "BR"
+            ]
+          ]
+        ]
+      ],
+      "roles": [
+        "technical"
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2012-01-30T16:10:04Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-09-15T13:28:36Z"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "2017-09-04T16:38:02Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2023-09-07T16:20:42Z"
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2024-09-04T16:38:02Z"
+    }
+  ],
+  "status": [
+    "active"
+  ],
+  "notices": [
+    {
+      "title": "Use and Privacy Policy",
+      "description": [
+        "Copyright (c) NIC.br",
+        "The use of the data is only permitted as described in",
+        "full by the Use and Privacy Policy, being prohibited its ",
+        "distribution, commercialization or reproduction, in ",
+        "particular, to use it for advertising or any similar ",
+        "purpose."
+      ],
+      "links": [
+        {
+          "value": "https://rdap.registro.br/domain/businesscorp.com.br",
+          "rel": "alternate",
+          "href": "https://registro.br/upp",
+          "type": "text/html"
+        }
+      ]
+    }
+  ],
+  "rdapConformance": [
+    "rdap_level_0",
+    "nicbr_level_0"
+  ],
+  "port43": "whois.nic.br"
+}
