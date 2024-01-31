@@ -4,6 +4,7 @@ import json
 
 url = 'businesscorp.com.br'
 dic_rdap = {}
+dic_rdapip = {}
 
 
 def parse():
@@ -26,6 +27,22 @@ def parse():
                 print(dic_rdap)
     except Exception as err:
         print(f'Ocorreu um erro: {err}')
+        
+        
+def parsetool():
+    """
+    >>> E realizado um coleta de dados em um arquivo em dados e retorna um json
+    """
+    try:
+        with open('dados/rdapip.json') as jsonfile:
+            json_rdap = json.load(jsonfile)
+            dic_rdapip['blocoip'] = json_rdap['handle']
+            dic_rdapip['startAddress'] = json_rdap['startAddress']
+            dic_rdapip['endAddress'] = json_rdap['endAddress']
+            print(dic_rdapip)
+            
+    except Exception as err:
+        print(f'Ocorreu um erro: {err}')
 
 
 def dump_json():
@@ -43,7 +60,7 @@ def dump_json():
 
 
 def main():
-    parse()
+    parsetool()
 
 
 if __name__ == '__main__':

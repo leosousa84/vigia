@@ -1,0 +1,418 @@
+{
+  "handle": "37.59.174.224 - 37.59.174.239",
+  "startAddress": "37.59.174.224",
+  "endAddress": "37.59.174.239",
+  "ipVersion": "v4",
+  "name": "OVH_134187362",
+  "type": "ASSIGNED PA",
+  "country": "PT",
+  "parentHandle": "37.59.0.0 - 37.59.255.255",
+  "cidr0_cidrs": [
+    {
+      "v4prefix": "37.59.174.224",
+      "length": 28
+    }
+  ],
+  "status": [
+    "active"
+  ],
+  "entities": [
+    {
+      "handle": "ORG-OL44-RIPE",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "OVH Hosting LDA"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "org"
+          ],
+          [
+            "adr",
+            {
+              "label": "Avenida Miguel Bombarda, 133 - 6ºA\n1050-164 Lisboa\nPortugal"
+            },
+            "text",
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        ]
+      ],
+      "roles": [
+        "registrant"
+      ],
+      "links": [
+        {
+          "value": "https://rdap.db.ripe.net/ip/37.59.174.226",
+          "rel": "self",
+          "href": "https://rdap.db.ripe.net/entity/ORG-OL44-RIPE"
+        },
+        {
+          "value": "http://www.ripe.net/data-tools/support/documentation/terms",
+          "rel": "copyright",
+          "href": "http://www.ripe.net/data-tools/support/documentation/terms"
+        }
+      ],
+      "objectClassName": "entity"
+    },
+    {
+      "handle": "OTC6-RIPE",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "OVH PT Technical Contact"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "group"
+          ],
+          [
+            "adr",
+            {
+              "label": "OVH Hosting LDA\nAvenida Miguel Bombarda, 133 - 6ºA\n1050-164 Lisboa\nPortugal"
+            },
+            "text",
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          [
+            "email",
+            {
+              "type": "abuse"
+            },
+            "text",
+            "abuse@ovh.net"
+          ]
+        ]
+      ],
+      "roles": [
+        "administrative",
+        "technical"
+      ],
+      "links": [
+        {
+          "value": "https://rdap.db.ripe.net/ip/37.59.174.226",
+          "rel": "self",
+          "href": "https://rdap.db.ripe.net/entity/OTC6-RIPE"
+        },
+        {
+          "value": "http://www.ripe.net/data-tools/support/documentation/terms",
+          "rel": "copyright",
+          "href": "http://www.ripe.net/data-tools/support/documentation/terms"
+        }
+      ],
+      "objectClassName": "entity"
+    },
+    {
+      "handle": "OVH-MNT",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "OVH-MNT"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "individual"
+          ]
+        ]
+      ],
+      "roles": [
+        "registrant"
+      ],
+      "links": [
+        {
+          "value": "https://rdap.db.ripe.net/ip/37.59.174.226",
+          "rel": "self",
+          "href": "https://rdap.db.ripe.net/entity/OVH-MNT"
+        },
+        {
+          "value": "http://www.ripe.net/data-tools/support/documentation/terms",
+          "rel": "copyright",
+          "href": "http://www.ripe.net/data-tools/support/documentation/terms"
+        }
+      ],
+      "objectClassName": "entity"
+    },
+    {
+      "handle": "AR15333-RIPE",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "Abuse-C Role"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "group"
+          ],
+          [
+            "adr",
+            {
+              "label": "OVH SAS\n2 Rue Kellermann\n59100 ROUBAIX\nFRANCE"
+            },
+            "text",
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          [
+            "email",
+            {
+              "type": "abuse"
+            },
+            "text",
+            "abuse@ovh.net"
+          ]
+        ]
+      ],
+      "roles": [
+        "abuse"
+      ],
+      "entities": [
+        {
+          "handle": "OVH-MNT",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "OVH-MNT"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "individual"
+              ]
+            ]
+          ],
+          "roles": [
+            "registrant"
+          ],
+          "links": [
+            {
+              "value": "https://rdap.db.ripe.net/ip/37.59.174.226",
+              "rel": "self",
+              "href": "https://rdap.db.ripe.net/entity/OVH-MNT"
+            },
+            {
+              "value": "http://www.ripe.net/data-tools/support/documentation/terms",
+              "rel": "copyright",
+              "href": "http://www.ripe.net/data-tools/support/documentation/terms"
+            }
+          ],
+          "objectClassName": "entity"
+        }
+      ],
+      "objectClassName": "entity"
+    }
+  ],
+  "remarks": [
+    {
+      "description": [
+        "Failover Ips"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "value": "https://rdap.db.ripe.net/ip/37.59.174.226",
+      "rel": "self",
+      "href": "https://rdap.db.ripe.net/ip/37.59.174.226"
+    },
+    {
+      "value": "http://www.ripe.net/data-tools/support/documentation/terms",
+      "rel": "copyright",
+      "href": "http://www.ripe.net/data-tools/support/documentation/terms"
+    }
+  ],
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "2017-03-07T16:27:02Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2023-01-09T14:53:20Z"
+    }
+  ],
+  "rdapConformance": [
+    "cidr0",
+    "rdap_level_0",
+    "nro_rdap_profile_0",
+    "redacted"
+  ],
+  "notices": [
+    {
+      "title": "Filtered",
+      "description": [
+        "This output has been filtered."
+      ]
+    },
+    {
+      "title": "Whois Inaccuracy Reporting",
+      "description": [
+        "If you see inaccuracies in the results, please visit:"
+      ],
+      "links": [
+        {
+          "value": "https://rdap.db.ripe.net/ip/37.59.174.226",
+          "rel": "inaccuracy-report",
+          "href": "https://www.ripe.net/contact-form?topic=ripe_dbm&show_form=true",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "Source",
+      "description": [
+        "Objects returned came from source",
+        "RIPE"
+      ]
+    },
+    {
+      "title": "Terms and Conditions",
+      "description": [
+        "This is the RIPE Database query service. The objects are in RDAP format."
+      ],
+      "links": [
+        {
+          "value": "https://rdap.db.ripe.net/ip/37.59.174.226",
+          "rel": "terms-of-service",
+          "href": "http://www.ripe.net/db/support/db-terms-conditions.pdf",
+          "type": "application/pdf"
+        }
+      ]
+    }
+  ],
+  "port43": "whois.ripe.net",
+  "objectClassName": "ip network",
+  "redacted": [
+    {
+      "name": {
+        "description": "Personal e-mail information"
+      },
+      "reason": {
+        "description": "Personal data"
+      },
+      "prePath": "$.entities[?(@.handle=='ORG-OL44-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+      "method": "removal"
+    },
+    {
+      "name": {
+        "description": "Updates notification e-mail information"
+      },
+      "reason": {
+        "description": "Personal data"
+      },
+      "prePath": "$.entities[?(@.handle=='OTC6-RIPE')].vcardArray[1][?(@[0]=='notify')]",
+      "method": "removal"
+    },
+    {
+      "name": {
+        "description": "Personal e-mail information"
+      },
+      "reason": {
+        "description": "Personal data"
+      },
+      "prePath": "$.entities[?(@.handle=='OTC6-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+      "method": "removal"
+    },
+    {
+      "name": {
+        "description": "Updates notification e-mail information"
+      },
+      "reason": {
+        "description": "Personal data"
+      },
+      "prePath": "$.entities[?(@.handle=='OVH-MNT')].vcardArray[1][?(@[0]=='notify')]",
+      "method": "removal"
+    },
+    {
+      "name": {
+        "description": "Personal e-mail information"
+      },
+      "reason": {
+        "description": "Personal data"
+      },
+      "prePath": "$.entities[?(@.handle=='AR15333-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+      "method": "removal"
+    }
+  ]
+}
